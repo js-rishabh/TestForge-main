@@ -416,7 +416,7 @@ const AutoTestLanding: FC = () => {
                 display: "flex", alignItems: "center", justifyContent: "center",
                 fontSize: 16, boxShadow: `0 4px 12px ${C.primary}44`,
               }}>⚡</div>
-              <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 600, fontSize: 16, letterSpacing: "-0.02em", color: C.ink }}>AutoTest</span>
+              <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 600, fontSize: 16, letterSpacing: "-0.02em", color: C.ink }}>TestForge</span>
               <span style={{
                 fontFamily: "'Geist Mono', monospace", fontSize: 10, fontWeight: 500,
                 color: C.primary, background: C.primaryBg, border: `1px solid ${C.primaryMid}`,
@@ -732,10 +732,11 @@ const AutoTestLanding: FC = () => {
           <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <div style={{ width: 28, height: 28, borderRadius: 8, background: `linear-gradient(135deg, ${C.primaryDark}, ${C.primary})`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13 }}>⚡</div>
-              <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 600, fontSize: 15, color: C.ink }}>AutoTest AI</span>
+              <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 600, fontSize: 15, color: C.ink }}>TestForge
+              </span>
             </div>
             <span style={{ fontFamily: "'Geist', sans-serif", fontSize: 13, color: C.subtle }}>
-              © {new Date().getFullYear()} AutoTest AI. All rights reserved.
+              © {new Date().getFullYear()} TestForge AI. All rights reserved.
             </span>
             <div style={{ display: "flex", gap: 24 }}>
               {(["Terms", "Privacy", "Contact", "Docs"] as string[]).map(l => (
