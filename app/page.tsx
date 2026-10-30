@@ -213,7 +213,7 @@ const TerminalMockup: FC = () => {
           <span key={c} style={{ width: 12, height: 12, borderRadius: "50%", background: c, display: "inline-block" }} />
         ))}
         <span style={{ fontFamily: "'Geist Mono', monospace", fontSize: 11, color: "#6b7a5e", marginLeft: 8 }}>
-          autotest — zsh
+          TestForge — zsh
         </span>
       </div>
       {/* Lines */}
